@@ -13,6 +13,11 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 2rem;
+    background: linear-gradient(45deg, black, transparent);
+    background: linear-gradient(180deg, #9932cc, #f0f);
+    height: 100vh;
+    max-width: 100%;
+
 }
 
 .timerContainer {
@@ -21,11 +26,13 @@ body {
     align-items: center;
     color: #fff;
     background: linear-gradient(25deg, #f00, #11f);
-    width: 100vw;
     font-size: 4rem;
     padding: 1rem;
     border-radius: 2rem;
+    width: 95vw;
     max-width: 80rem;
+    height: 27rem;
+
 }
 
 .timerH1 {
